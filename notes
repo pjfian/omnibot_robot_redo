@@ -76,14 +76,15 @@ Get the Alamode stuff up and working (great help here: http://wyolum.com/project
 
 Reboot the Pi
 
-Now you can connect to the motor controller Arduino via the USB connection (serial).  This page is excellent for getting you started: http://blog.oscarliang.net/connect-raspberry-pi-and-arduino-usb-cable/
+Now you can connect to the motor controller Arduino via the USB connection (serial).  This page is excellent for getting you started: https://oscarliang.com/connect-raspberry-pi-and-arduino-usb-cable/
+
 
 This page has instructions if you want to talk to the arduino via python: http://www.doctormonk.com/2012/04/raspberry-pi-and-arduino.html
 
 The Wyolum document linked earlier has all the instructions for connecting to the Alamode.  Its very similar to connecting to the Uno on the USB link.  The serial name is different (ttyXXXX).
 
 I got help for this next section from:
-http://pastebin.com/tHRMmPuJ
+http://pastebin.com/tHRMmPuJ (write-serial-rpi.php In reference foler)
 http://www.html.net/tutorials/php/lesson3.php
 
 To start controlling things from a web page you will want to create a php file in /var/www.  I do this by:
